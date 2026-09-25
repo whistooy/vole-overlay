@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>maintainer-needed@gentoo.org</email>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">reF1nd/sing-box</remote-id>
+	</upstream>
+	<use>
+		<flag name="acme">Enable ACME TLS certificate support</flag>
+		<flag name="ccm">Enable ciphertext configuration mode support</flag>
+		<flag name="clash-api">Enable Clash API support</flag>
+		<flag name="cloudflared">Enable Cloudflare UDP-over-TCP tunnel support</flag>
+		<flag name="dhcp">Enable DHCP based configuration</flag>
+		<flag name="ebpf">Enable eBPF inbound support (requires kernel headers)</flag>
+		<flag name="grpc">Enable v2ray gRPC transport (full gRPC implementation)</flag>
+		<flag name="gvisor">Enable gVisor based system stack support</flag>
+		<flag name="naive">Enable NaiveProxy (Cronet/Chrome network stack) outbound support</flag>
+		<flag name="ocm">Enable OpenConnect mode support</flag>
+		<flag name="openconnect">Enable OpenConnect outbound support</flag>
+		<flag name="openvpn">Enable OpenVPN outbound support</flag>
+		<flag name="quic">Enable QUIC based transports</flag>
+		<flag name="tailscale">Enable Tailscale endpoint support</flag>
+		<flag name="usbip">Enable USB/IP support</flag>
+		<flag name="utls">Enable uTLS for TLS fingerprint mimicry</flag>
+		<flag name="v2ray-api">Enable V2Ray API support</flag>
+		<flag name="wireguard">Enable WireGuard outbound support</flag>
+	</use>
+</pkgmetadata>
