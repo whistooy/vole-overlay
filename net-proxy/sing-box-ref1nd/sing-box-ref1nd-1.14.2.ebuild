@@ -26,7 +26,6 @@ IUSE="
 RDEPEND="
 	acct-group/sing-box
 	acct-user/sing-box
-	!net-proxy/sing-box
 "
 BDEPEND=">=dev-lang/go-1.25.5"
 
