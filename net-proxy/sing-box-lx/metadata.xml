@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>maintainer-needed@gentoo.org</email>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">Leadaxe/sing-box-lx</remote-id>
+	</upstream>
+	<use>
+		<flag name="acme">Enable ACME TLS certificate support</flag>
+		<flag name="awg">Enable AmneziaWG 2.0 obfuscated WireGuard support</flag>
+		<flag name="ccm">Enable ciphertext configuration mode support</flag>
+		<flag name="clash-api">Enable Clash API support</flag>
+		<flag name="cloudflared">Enable Cloudflare UDP-over-TCP tunnel support</flag>
+		<flag name="dhcp">Enable DHCP based configuration</flag>
+		<flag name="grpc">Enable v2ray gRPC transport (full gRPC implementation)</flag>
+		<flag name="gvisor">Enable gVisor based system stack support</flag>
+		<flag name="lx-chain">Enable nested tunnel chaining support</flag>
+		<flag name="lxd">Enable sing-box lxd management daemon and RPC command extensions</flag>
+		<flag name="naive">Enable NaiveProxy (Cronet/Chrome network stack) outbound support</flag>
+		<flag name="ocm">Enable OpenConnect mode support</flag>
+		<flag name="openconnect">Enable OpenConnect outbound support</flag>
+		<flag name="openvpn">Enable OpenVPN outbound support</flag>
+		<flag name="quic">Enable QUIC based transports</flag>
+		<flag name="tailscale">Enable Tailscale endpoint support</flag>
+		<flag name="trusttunnel">Enable TrustTunnel inbound and outbound support</flag>
+		<flag name="usbip">Enable USB/IP support</flag>
+		<flag name="utls">Enable uTLS for TLS fingerprint mimicry</flag>
+		<flag name="v2ray-api">Enable V2Ray API support</flag>
+		<flag name="wireguard">Enable WireGuard outbound support</flag>
+		<flag name="xhttp">Enable Xray-compatible XHTTP (splithttp) transport support</flag>
+	</use>
+</pkgmetadata>
